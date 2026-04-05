@@ -1,0 +1,133 @@
+/* STYLE DE BASE */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+body {
+  background-color: #0b0e1a;
+  color: #e8edf8;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr 3fr;
+  grid-template-rows: repeat(10, auto);
+  column-gap: 3px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px gold;
+}
+
+header {
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+section {
+  border: 1px solid #c9991a;
+  border-radius: 12px;
+  background-color: #131829;
+  margin: 20px;
+  padding: 10px;
+  font-family: "Crimson Pro", serif;
+}
+
+ul {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+.col1 {
+  grid-column: 1;
+}
+
+.col2 {
+  grid-column: 2;
+}
+
+.col1-2 {
+  grid-column: 1 / 3;
+}
+
+.col3 {
+  grid-column: 3;
+}
+
+.col4 {
+  grid-column: 4;
+}
+
+#fiche-caracs {
+  grid-row: 1 / 8;
+  display: flex;
+  flex-direction: column;
+}
+
+#fiche-inspiration-proficieny {
+  grid-row: 1;
+}
+
+#fiche-JdS {
+  grid-row: 2 / 4;
+}
+#fiche-skills {
+  grid-row: 4 / 8;
+}
+
+#fiche-passive-perception {
+  grid-row: 8;
+}
+
+#fiche-languages-others {
+  grid-row: 9 / -1;
+}
+
+#fiche-CA-init-speed {
+  grid-row: 1;
+}
+
+#fiche-pv {
+  grid-row: 2;
+}
+
+#fiche-jds-death {
+  grid-row: 3;
+}
+
+#fiche-attacks {
+  grid-row: 4 / 6;
+}
+
+#fiche-coins {
+  grid-row: 6;
+}
+
+#fiche-equipment {
+  grid-row: 7 / -1;
+}
+
+#fiche-traits {
+  grid-row: 1 / 3;
+}
+
+#fiche-ideals {
+  grid-row: 3;
+}
+
+#fiche-bonds {
+  grid-row: 4;
+}
+
+#fiche-flaws {
+  grid-row: 5;
+}
+
+#fiche-abilities {
+  grid-row: 6 / -1;
+}
