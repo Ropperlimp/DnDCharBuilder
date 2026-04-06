@@ -79,11 +79,21 @@ li {
 .blason {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   border: 1px solid gold;
 }
 
 .blason dd:nth-child(2) {
-  font-size: 2rem;
+  font-size: 3rem;
+}
+
+.blason dd:last-child{
+  border: 1px solid grey;
+  border-radius: 60% 60%;
+  width: 42%;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 #fiche-inspiration-proficieny {
