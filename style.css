@@ -69,6 +69,23 @@ li {
   flex-direction: column;
 }
 
+#dl-caracs {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(6, 1fr);
+  flex-grow: 1;
+}
+
+.blason {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gold;
+}
+
+.blason dd:nth-child(2) {
+  font-size: 2rem;
+}
+
 #fiche-inspiration-proficieny {
   grid-row: 1;
 }
