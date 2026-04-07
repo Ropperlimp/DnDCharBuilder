@@ -12,7 +12,7 @@ main {
   grid-template-columns: 1fr 2fr 3fr 3fr;
   grid-template-rows: repeat(10, auto);
   column-gap: 3px;
-  max-width: 1500px;
+  max-width: 1800px;
   margin-left: auto;
   margin-right: auto;
   border: solid 1px gold;
@@ -71,29 +71,43 @@ li {
 
 #dl-caracs {
   display: grid;
-  grid-template-columns: 100%;
   grid-template-rows: repeat(6, 1fr);
   flex-grow: 1;
+  row-gap: 20px;
 }
 
 .blason {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  border: 1px solid gold;
+  border: 0.5px solid #1e3a6e;
+  padding: 10px 0px 0px 0px;
+}
+
+.blason dt:first-child {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .blason dd:nth-child(2) {
   font-size: 3rem;
+  margin: 0;
+  padding: 0;
 }
 
-.blason dd:last-child{
+.blason dd:last-child {
   border: 1px solid grey;
-  border-radius: 60% 60%;
-  width: 42%;
+  background-color: #131829;
+  border-radius: 50%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  position: relative;
+  border-bottom: 0%;
+  transform: translateY(50%);
+  margin: 0px;
+  padding: 2px 10px;
 }
 
 #fiche-inspiration-proficieny {
