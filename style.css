@@ -11,8 +11,8 @@ main {
   display: grid;
   grid-template-columns: 1fr 2fr 3fr 3fr;
   grid-template-rows: repeat(10, auto);
-  column-gap: 3px;
   max-width: 1800px;
+  column-gap: 3px;
   margin-left: auto;
   margin-right: auto;
   border: solid 1px gold;
@@ -26,7 +26,7 @@ section {
   border: 1px solid #c9991a;
   border-radius: 12px;
   background-color: #131829;
-  margin: 20px;
+  margin: 10px;
   padding: 10px;
   font-family: "Crimson Pro", serif;
 }
